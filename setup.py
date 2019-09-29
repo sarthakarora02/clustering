@@ -17,7 +17,7 @@ setup(
   entry_points={
     'console_scripts': ['clustering=clustering.cli:main'],
   },
-  install_requires=[],
+  install_requires=['numpy==1.17.2'],
   python_requires='>=3.6, <4',
   setup_requires=['pytest-runner'],
   tests_require=tests_require,
